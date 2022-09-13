@@ -1,0 +1,324 @@
+@media screen and (min-width: 961px) {
+    .contact-outer-div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-inner-div {
+        margin-top: 150px;
+        /* height: 650px; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        /* padding-bottom: 200px; */
+    }
+
+    .contact-header-div {
+        /* background-color: antiquewhite; */
+        width: 80%;
+        height: 100px;
+        margin-bottom: 20px;
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        /* border-bottom: 1px solid rgb(206, 206, 206); */
+    }
+
+    .contact-header-div-2 {
+        width: 80%;
+        height: 100px;
+        /* margin-bottom: 100px; */
+        display: flex;
+        align-items: center;
+    }
+
+    #contact-header {
+        font-weight:700;
+        font-size: 2em;
+        color: #94211D;
+    }
+
+    #contact-header-2 {
+        font-weight:700;
+        font-size: 1.2em;
+    }
+
+
+    .contact-name {
+        height: 40px;
+        font-weight:700;
+        font-size: 1.5em;
+        /* color: #94211D; */
+    }
+
+    .contact-outer-wrapper {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid black; */
+    }
+
+    .contact-wrapper {
+        /* background-color: antiquewhite; */
+        min-width: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        /* border-right: 1px solid rgb(204, 204, 204); */
+    }
+
+    .contact-wrapper:last-child {
+        border: none;
+        padding-left: none;
+    }
+
+    .contact-box {
+        /* height: 200px; */
+    }
+
+    .contact-email, .contact-phone, .contact-skype {
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        /* border: 1px solid black; */  
+        padding-bottom: 20px;
+    }
+
+    .email-header, .phone-header, .skype-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80px;
+        font-weight:700;
+        font-size: 1em;
+        color: #94211D;
+    }
+
+    .contact-bottom-div {
+        background-color: #94211D;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-bottom-inner {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       width: 80%;
+    }
+
+    .contact-left-div, .contact-right-div {
+        width: 48%;
+        height: 80%;
+        /* min-width: 500px;
+        min-height: 500px; */
+        /* border: 1px solid black; */
+        background-color: white;
+        display: flex;
+    }
+
+    .google-map {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .address-outer-div {
+        position: absolute;
+        top: 20%;
+        left: 8%;
+        display: block;
+        padding: 25px;
+        background-color: rgb(255, 255, 255);
+        z-index: 10;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .address-outer-div > h1 {
+        font-weight: 700;
+        color: #94211D;
+    }
+
+    .pin-icon {
+       font-size: 3em;
+       color: #94211D;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 960px) {
+    .contact-outer-div {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .contact-inner-div {
+            margin-top: 50px;
+            /* height: 650px; */
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: center; */
+            /* padding-bottom: 200px; */
+        }
+    
+        .contact-header-div {
+            /* background-color: antiquewhite; */
+            width: 80%;
+            height: 100px;
+            margin-bottom: 20px;
+            display: flex;
+            /* align-items: center;
+            justify-content: center; */
+            /* border-bottom: 1px solid rgb(206, 206, 206); */
+        }
+    
+        .contact-header-div-2 {
+            width: 80%;
+            height: 100px;
+            /* margin-bottom: 100px; */
+            display: flex;
+            align-items: center;
+        }
+    
+        #contact-header {
+            font-weight: 700;
+            font-size: 2em;
+            color: #94211D;
+        }
+    
+        #contact-header-2 {
+            font-weight: 700;
+            font-size: 1.2em;
+        }
+    
+    
+        .contact-name {
+            height: 40px;
+            font-weight: 700;
+            font-size: 1.5em;
+            /* color: #94211D; */
+        }
+    
+        .contact-outer-wrapper {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-between; */
+            /* border: 1px solid black; */
+        }
+    
+        .contact-wrapper {
+            /* background-color: antiquewhite; */
+            min-width: 400px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 80px;
+            /* border-right: 1px solid rgb(204, 204, 204); */
+        }
+    
+        .contact-wrapper:last-child {
+            border: none;
+            padding-left: none;
+        }
+    
+        .contact-box {
+            /* height: 200px; */
+        }
+    
+        .contact-email,
+        .contact-phone,
+        .contact-skype {
+            display: flex;
+            flex-direction: column;
+            height: 60px;
+            /* border: 1px solid black; */
+            padding-bottom: 20px;
+        }
+    
+        .email-header,
+        .phone-header,
+        .skype-header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 80px;
+            font-weight: 700;
+            font-size: 1em;
+            color: #94211D;
+        }
+    
+        .contact-bottom-div {
+            background-color: #94211D;
+            width: 100%;
+            height: 800px;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .contact-bottom-inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5%;
+            width: 80%;
+            padding: 10vh 0;
+        }
+    
+        .contact-left-div,
+        .contact-right-div {
+            width: 100%;
+            height: 80%;
+            /* min-width: 500px;
+            min-height: 500px; */
+            /* border: 1px solid black; */
+            background-color: white;
+            display: flex;
+        }
+    
+        .google-map {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            line-height: 1.5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .address-outer-div {
+            position: absolute;
+            top: 10%;
+            left: 8%;
+            display: block;
+            padding: 25px;
+            background-color: rgb(255, 255, 255);
+            z-index: 10;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    
+        .address-outer-div>h1 {
+            font-weight: 700;
+            color: #94211D;
+        }
+    
+        .pin-icon {
+            font-size: 3em;
+            color: #94211D;
+        }
+}

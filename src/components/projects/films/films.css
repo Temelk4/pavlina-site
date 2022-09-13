@@ -1,0 +1,630 @@
+@media screen and (min-width: 961px) {
+    .film-outer-div {
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .film-inner-div {
+        margin-top: 180px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* padding-bottom: 200px; */
+    }
+
+    .future-film-inner-div {
+        margin-top: 80px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 200px;
+    }
+
+    .film-inner-div-hell {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #060C1A;
+    }
+
+    .film-top-div-hell {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 180px;
+    }
+
+    .film-top-div, .film-bottom-div {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        /* border: 1px solid black; */
+    }
+
+    .film-top-div {
+        /* border-bottom: 1px solid rgb(206, 206, 206); */
+        padding-bottom: 50px;
+    }
+
+    .film-bottom-div {
+        margin-top: 50px;
+        background-color: rgb(209, 209, 209);
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .film-bottom-wrapper {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .film-bottom-wrapper-hell {
+        width: 80%;
+        display: flex;
+    }
+
+    .film-info-div {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        padding-right: 40px;
+    }
+
+
+    .film-info-div-between {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        padding-right: 40px;
+    }
+
+
+    .film-video-div {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .film-video-div-between {
+        width: 30%;
+        display: block;
+    }
+
+    .film-video-wrapper {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .film-video {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+
+    .film-video-wrapper-redux {
+        width: 100%;
+        height: 100%;
+    }
+
+    .film-video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .film-title {
+        display: flex;
+        line-height: 1.5;
+        font-weight:700;
+        font-size: 2em;
+        color: #94211D;
+        padding-bottom: 50px;
+    }
+
+    .film-title-hell {
+        display: flex;
+        line-height: 1.5;
+        font-weight:700;
+        font-size: 2em;
+        color: white;
+        padding-bottom: 50px;
+    }
+
+
+    .film-detail-wrapper {
+        /* border: 1px solid red; */
+        width: 90%;
+        line-height: 1.5;
+        padding-bottom: 30px;
+    }
+
+    .film-detail-header {
+        display: flex;
+        height: 30px;
+        line-height: 1.5;
+        font-weight:700;
+        color: #94211D;
+    }
+
+    .thumbnail-outer-wrapper {
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    .film-thumbnail-div {
+        width: 30%;
+        padding-right: 40px;
+        height: 100%;
+    }
+
+    .film-thumbnail-div-snowman {
+        width: 100%;
+        padding-right: 40px;
+        padding-bottom: 5%;
+        height: 100%;
+    }
+
+
+    #thumbnail {
+        width: 100%;
+    }
+
+    #thumbnail-between {
+        width: 100%;
+    }
+
+
+    .film-about-div {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+
+    .film-about-div-hell {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .film-about {
+        width: 90%;
+        line-height: 1.5;
+        display: flex;
+        padding: 20px 0 20px 0
+    }
+
+    .film-about-2 {
+        width: 90%;
+        line-height: 1.5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .film-quote  {
+        width: 90%;
+        line-height: 1.5;
+        font-weight: 700;
+        color: #94211D;
+        font-style: italic;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .film-img {
+        width: 80%;
+    }
+
+    .future-film-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+
+    .future-film-about {
+        line-height: 1.5;
+        width: 85%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .rice-img, .keratza-img {
+        width: 500px;
+    }
+
+    .magic-tagline:first-of-type {
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+
+    .film-between-div, .between-img-wrapper {
+        display: flex;
+        width: 80vw;
+        justify-content: space-between;
+        /* overflow: hidden; */
+    }
+
+    #between-img {
+        width: 32%;
+    }
+
+    /* .film-between-div-t {
+       position: fixed;
+       height: 100vh;
+       top: 150px;
+       bottom: 0;
+       right: 0;
+       left: 0;
+       background: rgba(0, 0, 0, 0.445);
+       z-index: 100;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    } */
+
+
+
+
+}
+
+@media screen and (max-width: 960px) {
+    .film-outer-div {
+            height: 100%;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .film-inner-div {
+            margin-top: 80px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* padding-bottom: 200px; */
+        }
+
+        .future-film-inner-div {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* padding-bottom: 200px; */
+        }
+
+        .film-inner-div-hell {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #060C1A;
+        }
+
+        .film-top-div-hell {
+            width: 85%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 80px;
+        }
+
+        .film-top-div,
+        .film-bottom-div {
+            width: 85%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* border: 1px solid black; */
+        }
+
+        .film-top-div {
+            /* border-bottom: 1px solid rgb(206, 206, 206); */
+            padding-bottom: 50px;
+        }
+
+        .film-bottom-div {
+            margin-top: 50px;
+            background-color: rgb(209, 209, 209);
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+
+        .film-bottom-wrapper {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 10vh;
+        }
+
+        .film-bottom-wrapper-hell {
+            width: 80%;
+            display: flex;
+        }
+
+        .film-info-div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            line-height: 1.5;
+            padding-bottom: 10vh;
+        }
+
+
+        .film-info-div-between {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            padding-right: 40px;
+        }
+
+
+        .film-video-div {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .film-video-div-between {
+            width: 30%;
+            display: block;
+        }
+
+        .film-video-wrapper, .film-video {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .film-video-wrapper-redux {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* .film-video {
+            width: 100%;
+            height: 100%;
+        } */
+
+        .film-title {
+            display: flex;
+            line-height: 1.5;
+            font-weight: 700;
+            font-size: 2em;
+            color: #94211D;
+            padding-bottom: 50px;
+        }
+
+        .film-title-hell {
+            display: flex;
+            line-height: 1.5;
+            font-weight: 700;
+            font-size: 2em;
+            color: white;
+            padding-bottom: 50px;
+        }
+
+        .hell-poster {
+            width: 100%;
+        }
+
+
+        .film-detail-wrapper {
+            /* border: 1px solid red; */
+            width: 90%;
+            line-height: 1.5;
+            padding-bottom: 30px;
+        }
+
+        .film-detail-header {
+            display: flex;
+            justify-content: center;
+            height: 30px;
+            line-height: 1.5;
+            font-weight: 700;
+            color: #94211D;
+        }
+
+        .thumbnail-outer-wrapper {
+            /* background-color: antiquewhite; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 90%;
+        }
+
+        .film-thumbnail-div {
+            width: 90%;
+            /* padding-right: 40px; */
+            height: 100%;
+        }
+
+        .film-thumbnail-div-snowman {
+            width: 100%;
+            padding-right: 40px;
+            padding-bottom: 5%;
+            height: 100%;
+        }
+
+
+        #thumbnail {
+            width: 100%;
+        }
+
+        #thumbnail-between {
+            width: 100%;
+        }
+
+
+        .film-about-div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+
+        .film-about-div-hell {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        .film-about {
+            width: 100%;
+            line-height: 1.5;
+            display: flex;
+            padding: 30px 0 30px 0
+        }
+
+        .film-about-2 {
+            width: 85%;
+            line-height: 1.5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .film-quote {
+            width: 100%;
+            line-height: 1.5;
+            font-weight: 700;
+            color: #94211D;
+            font-style: italic;
+            text-align: justify;
+            text-justify: inter-word;
+            padding-bottom: 10vh;
+        }
+
+        .film-img {
+            width: 100%;
+            padding-bottom: 10vh;
+        }
+
+        .future-film-wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            /* padding-top: 60px; */
+            padding-bottom: 10vh;
+            padding-top: 10vh;
+            border-bottom: 1px solid rgb(204, 204, 204);
+        }
+
+        .future-film-about {
+            line-height: 1.5;
+            width: 100%;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        .future-film-about-div {
+            line-height: 1.5;
+            width: 100%;
+            text-align: justify;
+            text-justify: inter-word;
+            padding-bottom: 5vh;
+        }
+
+        .rice-img,
+        .keratza-img {
+            width: 100%;
+        }
+
+        .magic-tagline:first-of-type {
+            font-size: 1.3em;
+            font-weight: 700;
+            line-height: 1.5;
+            width: 80%;
+        }
+
+        .film-between-div,
+        .between-img-wrapper {
+            display: flex;
+            width: 80vw;
+            justify-content: space-between;
+            /* overflow: hidden; */
+        }
+
+        #between-img {
+            width: 32%;
+        }
+
+        .snow-img {
+            width: 100%;
+        }
+
+        /* .film-between-div-t {
+           position: fixed;
+           height: 100vh;
+           top: 150px;
+           bottom: 0;
+           right: 0;
+           left: 0;
+           background: rgba(0, 0, 0, 0.445);
+           z-index: 100;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+        } */
+
+
+
+}
